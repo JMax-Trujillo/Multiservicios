@@ -1,20 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package pkg2_reserva_producto;
 
 import java.util.Scanner;
 
-/**
- *
- * @author nanci
- */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -22,7 +11,6 @@ public class Main {
         VerificarProducto verificar = new VerificarProducto();
         ActualizarProducto actualizar = new ActualizarProducto();
         ReservarProducto consultar = new ReservarProducto();
-        // TODO code application logic here
         boolean is_active = true;
         while (is_active) {
             System.out.println("Menu de opciones");
