@@ -19,17 +19,17 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         ReservaProducto reserva = new ReservaProducto();
-        VerificarProducto verificar = new VerificarProducto();
+        ReservarProsucto verificar = new ReservarProsucto();
         ActualizarProducto actualizar = new ActualizarProducto();
-        ConsultarReserva consultar = new ConsultarReserva();
+        RegistrarProducto consultar = new RegistrarProducto();
         // TODO code application logic here
         boolean is_active = true;
         while (is_active) {
             System.out.println("Menu de opciones");
-            System.out.println("1. Reserva");
+            System.out.println("1. Registrar");
             System.out.println("2. Verifica");
             System.out.println("3. Actualiza");
-            System.out.println("4. Consultar");
+            System.out.println("4. Reservar");
             System.out.println("5. Salir");
             System.out.println("Elige una opcion");
             int opcion = sc.nextInt();
