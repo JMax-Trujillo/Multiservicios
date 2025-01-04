@@ -2,7 +2,7 @@ package pkg2_reserva_producto;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class RegistrarProducto {
+public class ReservarProducto {
     public static void ejecutable(){
         System.out.println("RESERVAR PRODUCTO");
         Scanner sc = new Scanner(System.in);
@@ -57,7 +57,7 @@ public class RegistrarProducto {
                 case 3:
                     System.out.println("Saliendo del sistema de reservas...");
                     sc.close();
-                    break;
+                    return;
 
                 default:
                     System.out.println("Opcion no valida. ¡Intenta nuevamente!");

@@ -18,10 +18,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        ReservaProducto reserva = new ReservaProducto();
-        ReservarProsucto verificar = new ReservarProsucto();
+        RegistroProductos reserva = new RegistroProductos();
+        VerificarProducto verificar = new VerificarProducto();
         ActualizarProducto actualizar = new ActualizarProducto();
-        RegistrarProducto consultar = new RegistrarProducto();
+        ReservarProducto consultar = new ReservarProducto();
         // TODO code application logic here
         boolean is_active = true;
         while (is_active) {

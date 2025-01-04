@@ -1,6 +1,6 @@
 package pkg2_reserva_producto;
 import java.util.Scanner;
-public class ReservarProsucto {
+public class VerificarProducto {
     public static void ejecutable(){
         System.out.println("BUSCAR UN PRODUCTO");
         Scanner sc = new Scanner(System.in);
@@ -23,6 +23,6 @@ public class ReservarProsucto {
             System.out.println("EL PRODUCTO NO SE ENCUENTRA DISPONIBLE");
         }
 
-        sc.close();
+        
     }
 }

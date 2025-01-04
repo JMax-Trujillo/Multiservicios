@@ -1,6 +1,6 @@
 package pkg2_reserva_producto;
 import java.util.Scanner;
-public class ReservaProducto {
+public class RegistroProductos {
     public static void ejecutable(){
         System.out.println("REGISTRO DE PRODUCTOS");
         Scanner sc = new Scanner(System.in);
@@ -28,7 +28,7 @@ public class ReservaProducto {
             System.out.println(productos[i] + ": " + cantidades[i] + " unidades");
         }
 
-        sc.close();
+
     }
 
     }
