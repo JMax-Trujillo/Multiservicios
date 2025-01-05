@@ -7,11 +7,13 @@ public class Inventario {
 
     public Inventario() {
         // Datos de prueba
-        agregarProducto(1, "Bolsa", 20, 40, 5);
-        agregarProducto(2, "Caja", 50, 25, 10);
-        agregarProducto(3, "Botella", 100, 15, 20);
-        agregarProducto(4, "Lata", 30, 10, 5);
-        agregarProducto(5, "Paquete", 60, 5, 8);
+        agregarProducto(1, "Cables", 20, 40, 5);
+        agregarProducto(2, "Tubos PVC", 50, 25, 10);
+        agregarProducto(3, "Alambres", 100, 15, 20);
+        agregarProducto(4, "Fusibles", 30, 10, 5);
+        agregarProducto(5, "Interruptor", 60, 5, 8);
+        agregarProducto(6, "TomaCorriente", 60, 5, 8);
+        agregarProducto(7, "Placa", 60, 5, 8);
     }
 
     public void agregarProducto(int id, String nombre, int cantidad, double costo, int consumoDiario) {
