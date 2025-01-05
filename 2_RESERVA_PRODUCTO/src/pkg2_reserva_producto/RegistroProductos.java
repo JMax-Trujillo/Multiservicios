@@ -7,10 +7,9 @@ public class RegistroProductos {
         System.out.println("Ingresa el numero de productos a registrar: ");
         int numero=sc.nextInt();
         sc.nextLine();
-        String[] productos = new String[numero];
-        int[] cantidades = new int[numero];
+        String[] productos = new String[numero];//arreglo para almacenar productos, [capacidad de cierto numero]
+        int[] cantidades = new int[numero];//arreglo para almacenar la cantidad de productos
         int contador = 0;
-
         System.out.println("¡PRODUCTOS REGISTRADOS!:");
         while (contador < numero) {
             System.out.print("Ingresa el nombre del producto: ");
@@ -22,14 +21,9 @@ public class RegistroProductos {
 
             contador++;
         }
-
         System.out.println("\nInventario registrado:");
         for (int i = 0; i < contador; i++) {
             System.out.println(productos[i] + ": " + cantidades[i] + " unidades");
         }
-
-
     }
-
-    }
-
+}

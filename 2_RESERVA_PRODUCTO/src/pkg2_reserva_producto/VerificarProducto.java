@@ -5,12 +5,10 @@ public class VerificarProducto {
         System.out.println("BUSCAR UN PRODUCTO");
         Scanner sc = new Scanner(System.in);
         String[] productos = {"cables", "alambres", "tubos pvc", "interruptores", "placas", "conectores"};
-        int[] cantidades = {10, 20, 15, 8, 12, 9};
-
+        int[] cantidades = {10, 20, 15, 8, 12, 9};//creamos un arreglo que contiene las cantidades rspctvas de un prod.
         System.out.print("Ingresa el nombre del producto a buscar: ");
         String buscar = sc.nextLine();
         boolean encontrado = false;
-
         for (int i = 0; i < productos.length; i++) {
             if (productos[i].equalsIgnoreCase(buscar)) {
                 System.out.println("PRODUCTO: " + productos[i] + " - CANTIDAD: " + cantidades[i]);
@@ -18,11 +16,8 @@ public class VerificarProducto {
                 break;
             }
         }
-
         if (!encontrado) {
             System.out.println("EL PRODUCTO NO SE ENCUENTRA DISPONIBLE");
         }
-
-        
     }
 }

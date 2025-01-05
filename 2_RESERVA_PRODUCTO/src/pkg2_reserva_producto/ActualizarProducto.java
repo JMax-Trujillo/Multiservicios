@@ -80,7 +80,6 @@ public class ActualizarProducto {
 
                 case 4: 
                     System.out.println("Saliendo del sistema de gestion de inventarios...");
-                    sc.close();
                     return;
 
                 default:

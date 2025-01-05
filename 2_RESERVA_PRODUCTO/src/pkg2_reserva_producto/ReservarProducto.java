@@ -56,7 +56,6 @@ public class ReservarProducto {
 
                 case 3:
                     System.out.println("Saliendo del sistema de reservas...");
-                    sc.close();
                     return;
 
                 default:
