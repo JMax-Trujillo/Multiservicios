@@ -3,6 +3,16 @@ package pkg5_cuestionario;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+class Evaluacion {
+    String nombreEmpleado;
+    ArrayList<String> respuestas;
+
+    public Evaluacion(String nombreEmpleado, ArrayList<String> respuestas) {
+        this.nombreEmpleado = nombreEmpleado;
+        this.respuestas = respuestas;
+    }
+}
+
 public class P04CuestionarioCapacitacion {
     static String[] preguntas = {
         "1. ¿Qué es la misión de la empresa?",
@@ -47,15 +57,5 @@ public class P04CuestionarioCapacitacion {
             }
         }
         
-    }
-}
-
-class Evaluacion {
-    String nombreEmpleado;
-    ArrayList<String> respuestas;
-
-    public Evaluacion(String nombreEmpleado, ArrayList<String> respuestas) {
-        this.nombreEmpleado = nombreEmpleado;
-        this.respuestas = respuestas;
     }
 }

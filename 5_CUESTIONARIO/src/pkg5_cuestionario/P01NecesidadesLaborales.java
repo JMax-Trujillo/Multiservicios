@@ -3,6 +3,17 @@ package pkg5_cuestionario;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+class Empleado {
+    String nombre;
+    String[] respuestas;
+
+    // Constructor para el objeto Empleado
+    public Empleado(String nombre, String[] respuestas) {
+        this.nombre = nombre;
+        this.respuestas = respuestas;
+    }
+}
+
 public class P01NecesidadesLaborales {
     public static void ejecutable(){
         Scanner scanner = new Scanner(System.in);
@@ -56,16 +67,5 @@ public class P01NecesidadesLaborales {
                 System.out.println(preguntas[i] + ": " + empl.respuestas[i]);
             }
         }
-    }
-}
-
-class Empleado {
-    String nombre;
-    String[] respuestas;
-
-    // Constructor para el objeto Empleado
-    public Empleado(String nombre, String[] respuestas) {
-        this.nombre = nombre;
-        this.respuestas = respuestas;
     }
 }

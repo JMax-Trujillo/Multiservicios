@@ -3,6 +3,16 @@ package pkg5_cuestionario;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+class Sugerencia {
+    String nombreEmpleado;
+    String sugerencia;
+
+    public Sugerencia(String nombreEmpleado, String sugerencia) {
+        this.nombreEmpleado = nombreEmpleado;
+        this.sugerencia = sugerencia;
+    }
+}
+
 public class P03SistemaSugerencias {
     public static void ejecutable() {
         Scanner scanner = new Scanner(System.in);
@@ -29,15 +39,5 @@ public class P03SistemaSugerencias {
             System.out.println("Sugerencia: " + sug.sugerencia);
         }
       
-    }
-}
-
-class Sugerencia {
-    String nombreEmpleado;
-    String sugerencia;
-
-    public Sugerencia(String nombreEmpleado, String sugerencia) {
-        this.nombreEmpleado = nombreEmpleado;
-        this.sugerencia = sugerencia;
     }
 }
