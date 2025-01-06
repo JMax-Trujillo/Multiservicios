@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Packages.Main",
+            "projectName": "3_RESERVA_ENTREVISTA"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "src.Packages.Main",
+            "classPaths": [
+                "bin",
+                "lib/sqlite-jdbc-3.47.2.0.jar"
+            ]
+        }
+    ]
+}
+
