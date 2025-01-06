@@ -6,6 +6,13 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "Packages.Main",
+            "projectName": "3_RESERVA_ENTREVISTA_e06a3711"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Packages.Main",
             "projectName": "3_RESERVA_ENTREVISTA"
         },
         {
